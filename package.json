@@ -1,0 +1,30 @@
+{
+  "name": "ctse_backend",
+  "version": "1.0.0",
+  "description": "Implement ctse react native mobile app backend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "chanuth",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.34.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "npm": "^9.5.1",
+    "stripe": "^11.12.0",
+    "validator": "^13.9.0"
+  }
+}
