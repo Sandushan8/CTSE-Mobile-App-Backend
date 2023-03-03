@@ -16,8 +16,10 @@ app.use(fileUpload({ useTempFiles: true }));
 
 // Route imports
 const user = require("./routes/UserRoute");
+const pet = require("./routes/PetRoute");
 
 app.use("/api/v2", user);
+app.use("/api/v2", pet);
 
 // it's for errorHandeling
 app.use(ErrorHandler);
